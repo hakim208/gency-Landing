@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxText{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #303948;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tri{
+    display: none;
+    font-size: 50px;
+}
+@media (max-width:900px) {
+    .boxText{
+        display: none;
+    }
+    .tri{
+        display: block;
+    }
+}
